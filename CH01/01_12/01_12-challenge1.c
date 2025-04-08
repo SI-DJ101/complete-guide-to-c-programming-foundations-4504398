@@ -1,9 +1,21 @@
-main program
- 
-initialization
+#include <stdio.h>
+#include <stdlib.h>
 
-initial message
+/* main program */
 
-main program loop
+int main()
+{
+  // initialization
+  int i = 0;
+  char msg[] = "Hello World!\n";
 
-output results
+  // initial message
+  printf(msg);
+
+  // main program loop
+  for (i = 0; i < 5; ++i)
+    printf("%d\n", i);
+
+  // output results
+  return 0;
+}
